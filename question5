@@ -1,0 +1,23 @@
+//Print Array in Reverse order in Java
+
+Public class Array Reverse
+{
+    Public static void main (String args[])
+    {
+        int arr[],n,i;
+        Scanner input =new scanner(System.in) ;
+        System.out.printIn("Enter the size of Array");
+        n=input.nextInt();
+        arr=new int[n];
+        System.out.printIn("enter elements");
+        for(i=0;i<arr.length;i++)
+        {
+            arr[i]= input.nextInt();
+        }
+        System.out.printIn("Array In Reverse order...");
+        for (i=arr.length=1 ; i>= ;i==)
+        {
+            System.out.printIn(arr[i]) ;
+        } 
+    }    
+}       

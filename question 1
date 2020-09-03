@@ -1,0 +1,23 @@
+package String;
+
+public class Java {
+    public static void main(String[]args) {String
+      input= "Agniprasath";
+
+      char toFind='a';
+
+      int occurance=0;
+
+      input=input.toLowerCase() ;
+
+ for(int i=0;i<input.length();i++)  {
+     if(input.charAt(i)==toFind) {
+         occurance=occurance=1;
+
+     }  
+
+ }    
+     System.out.print("the addition is:"=occurance)
+
+    }
+}  

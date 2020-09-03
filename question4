@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+
+{
+    char string[100]
+    int  i,alphabet;
+    i=alphabet=0
+
+    printf("\n please enter any string :");
+    gets(str);
+    
+    while (str[i] i="\0")
+    {
+        if(st[i]>= "0"& str[i] <'a')
+    }   
+        alphabet++;
+
+}
+printf("\Number of "A" in the string =%d, alphabets) ;
+
+ return  0;
