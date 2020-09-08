@@ -1,0 +1,40 @@
+public class Objects {
+
+}   
+class Student 1
+{
+    string name;
+    int age;
+    string country;
+    array(string[]) hobbies
+}
+    public Student(String name, int age, string country, array (string[])hobbies)
+
+let avenger = {
+    name: "Harish" ,
+    age: 15,
+    country: "India",
+    hobbies: "reading",
+}
+
+
+const myObject = {
+    "a" : "a"
+    "b" :{
+        "c" :"c",
+        "d" : {
+            "e" : "e"
+            "f" :{
+                "g" : "g"
+                "h" :{
+                    "i":"i"
+                }
+            }
+        }
+    }
+};
+console.log(myObject);  
+
+
+
+

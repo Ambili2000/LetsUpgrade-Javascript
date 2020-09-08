@@ -1,0 +1,12 @@
+var staff = [
+    {name:"Abin" ,age:35 ,gender:"male"},
+    {name:"Aswin" ,age:38 ,gender:"male"},
+    {name:"vineeth" ,age:30 ,gender:"male"},
+    {name:"bindhu" ,age:32 ,gender:"female"},
+    {name:"Anu" ,age:39 ,gender:"female"},
+]
+
+ var filtered Array= satff.filter(function(item){return item.age<30});
+
+
+    
