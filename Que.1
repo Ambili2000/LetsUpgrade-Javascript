@@ -1,0 +1,19 @@
+function searchByname()
+{
+    let searchValue = document.getElementById("searchName").value;
+    let newdata= employee.filter(function(person))
+    //  filter will go and check the name in the aray whatever you searched for
+    {
+        if (newdata==person.name)
+        {
+            return person.name.toUpperCase().indexOf(searchValue.toUpperCase()!=-1)
+        }
+
+        else if (newdata==person.city)
+        {
+            return person.city.toUpperCase().indexOf(searchValue.toUpperCase())!=-1;
+        }
+    });
+
+    display(newdata); //displaying onlyfiltered element of the array
+}           

@@ -1,0 +1,18 @@
+display();
+
+function search() {
+    let arrbus=document.getElementById("searching").value;
+
+    let arrbus= JSON.parse(localStorage.getItem("buses"));
+
+    let bus_arr = arrbus.filter(function (element)) {
+        if (element.source.indexOf(ser_ele) != -1)  {
+            return element.source.indexOf(ser_ele) ! = -1;
+        }
+        else if (element.destination.indexOf(ser_ele) != -1) {
+            return element.destination.indexOf(ser_ele) != -1;
+
+
+        };
+
+    })          
